@@ -1,0 +1,31 @@
+<html>
+    <head>
+       <title>Online exam</title>
+       <link type="text/css" rel="stylesheet" href="C:\Users\DELL\OneDrive\java full stack\html and css course\.vscode\js\style.css"/>
+       <script type="text/javascript" src="C:\Users\DELL\OneDrive\java full stack\html and css course\.vscode\js\online.js"></script>
+    </head>
+    <body onload="show()">
+        <p class="title">Online exam @ Excelr</p>
+        <div class="Mainform" align="Left">
+            <br><br>
+            <form name="examform" id="inputform1" action="" method="GET">
+                <p id="question">(1) This is the question</p>
+                <input type="radio" name="OptionR"
+                onclick="answerchoosed(1)" id="Opt1"/>
+                <label id="Option0" name="Name1" >1st Option</label><br>
+                <input type="radio" name="OptionR" 
+                onclick="answerchoosed(2)"id="Opt2"/>
+                <label id="Option1" >2nd Option</label><br>
+                <input type="radio" name="OptionR"
+                onclick="answerchoosed(3)" id="Opt3"/>
+                <label id="Option2" >3rd Option</label><br>
+                <input type="radio" name="OptionR" 
+                onclick="answerchoosed(4)"id="Opt4"/>
+                <label id="Option3" >4th Option</label><br>
+                <br>
+                <input type="button" value="next" onclick="NextQuestion()">
+
+            </form>
+        </div>
+    </body>
+</html>
